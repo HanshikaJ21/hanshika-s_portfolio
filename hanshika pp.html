@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f5f5f5;
+      color: #000000;
+    }
+    .slideshow {
+      position: relative;
+      max-width: 100%;
+      overflow: hidden;
+    }
+
+    .slideshow img {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      z-index: 1;
+      transition: opacity 1s ease-in-out;
+    }
+
+    .slideshow img:first-child {
+      opacity: 1;
+      z-index: 2;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding: 30px;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    p.role {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .header-nav {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .header-nav a {
+      margin: 0 10px;
+      color: #000000;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      background-color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .header-nav a:hover {
+      background-color: #666666;
+      color: #ffffff;
+    }
+
+    .header-nav a.contact {
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    .header-nav a.contact:hover {
+      background-color: #666666;
+      color: #ffffff;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    .project {
+      margin-bottom: 30px;
+    }
+
+    .project h3 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    
+    .project p {
+      font-size: 16px;
+    }
+
+    .project img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .contact-info {
+      text-align: center;
+    }
+
+    .contact-info p {
+      margin-bottom: 5px;
+    }
+
+    .contact-info a {
+      color: #000000;
+      text-decoration: none;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .footer p {
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <p style="display:inline-block;">
+      <h1>Hanshika Jasuja</h1>
+       <img src="C:\Users\Admin\Desktop\Portfolio\profile.png" /> 
+    </p>
+    
+    <p class="role">Software Engineer | Web Developer</p>
+    <div class="header-nav">
+      <a href="#about-me">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact" class="contact">Contact Me</a>
+    </div>
+  </div>
+
+  <div class="section" id="about-me">
+    <h2>About Me</h2>
+    <p>My name is Hanshika Jasuja, and I'm delighted to have the opportunity to introduce myself.Throughout my academic journey, I have actively engaged in various projects that have allowed me to apply my technical skills and problem-solving abilities.Additionally, I have successfully completed a certified course in web designing, where I gained valuable knowledge and practical expertise. This course has equipped me with the skills to design captivating and user-friendly websites, further enhancing my technical abilities.
+      In addition to my academic achievements and certified course, I have gained practical experience through internships. One of my notable internships was at iFuture, a small startup company.Alongside my studies, certified course, and internships, I have actively participated in co-curricular activities that have further enhanced my personal and professional growth. I stood second in a technical paper publication competition held at Vesp.I also held positions of responsibility, serving as a class representative during my third year of engineering and taking on the role of Publicity Incharge in the Quest IT Cell at Vesit.
+      With my strong educational foundation, technical proficiency, diverse experiences, and practical internship experience,  I possess a keen attention to detail, exceptional problem-solving skills, and a proactive approach to learning and growth</p>
+      </div>
+
+  <div class="section" id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Python</li>
+      <li>Java</li>
+      <li>C++</li>
+      <li>Database</li>
+    </ul>
+  </div>
+
+  <div class="section" id="education">
+    <h2>Education</h2>
+    <p><li>Bachelor of Enginerring in Information Technology</p></li>
+    <p>Vivekanand Education Society's Institute of Technology</p>
+    <p><li>Diploma in Computer Engineering</p></li>
+    <p>Vivekanand Education Society's Institute of Polytechnic</p>
+  </div>
+
+  <div class="section" id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Maharashtra Technical and self-Employement
+        Training Society Certificate in Web Development
+        </li>
+    
+    </ul>
+  </div>
+
+  <div class="section" id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>2nd Prize winner at in Technical Paper Presentation held at VESP on Engineers Day</li>
+      
+    </ul>
+  </div>
+
+  <div class="section" id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>A personal website showcasing my skills, experience, and projects.</p>
+      <img src="C:\Users\Admin\Desktop\Portfolio\pi2.png" alt="Image 2">
+        </div>
+    <div class="project">
+      <h3>E-commerce Platform</h3>
+      <p>An online store for selling Watches.</p>
+      <img src="C:\Users\Admin\Desktop\Portfolio\preview.png" alt="E-commerce Platform Screenshot">
+    </div>
+  </div>
+
+  <div class="section" id="experience">
+    <h2>Experience</h2>
+    <p>Ifuture- Web Developer Intern</p>
+    <p>Sparks Foundation - Web Developer Intern</p>
+    <p>VESIT Renassiance  - Web Developer Intern</p>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact</h2>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:hanshikajasuja21@example.com">hanshikajasuja21@example.com</a></p>
+      <p>Github: <a href="https://github.com/HanshikaJ21">HanshikaJ21</a></p>
+      <a href="https://www.instagram.com/code.hanshika" target="_blank"><img src="C:\Users\Admin\Desktop\Portfolio\instagram.jpg" alt="Instagram" style="width: 20px; height: 20px; margin-right: 5px;"></a>
+      <a href="https://www.instagram.com/code.hanshika" target="_blank">hanshika_jasuja</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Website by @hanshika_jasuja</p>
+    <p>&copy; 2023 All rights reserved.</p>
+  </div>
+</body>
+</html>
